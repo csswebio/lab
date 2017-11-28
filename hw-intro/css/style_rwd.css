@@ -136,7 +136,6 @@ img{
 .top-menu{
   float: right;
   margin-top: 20px;
-	//border: 1px solid red;
 }
 
 .top-menu li{
@@ -219,7 +218,6 @@ img{
 		background-image: url(../img/menu-icon.png);
 		padding: 15px 10px;
     margin: 12px 15px 6px 0;
-		//border: 1px solid green;
   }
 
 	.menu-show .top-menu{
@@ -245,13 +243,14 @@ img{
 	color: white;
 	font-size: 32px;
 	background-color: rgba(255,255,255,0.1);
-	padding: 1em 0;
+	line-height: 1.4em;
+	padding: 0.7em 0;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
 
-.land-title span,strong{
+.land-title .subject{
 	display: block;
 	padding: 5px 0 5px 20px;
 }
@@ -266,15 +265,15 @@ img{
 		}
 
 		.land-title{
-		  font-size: 26px;
-			padding: 1em 0;
+		  font-size: 28px;
+			line-height: 1.4em;
+			padding: 0.7em 0;
 		}
 
-		.land-title span,strong{
-			padding-left: 8px;
+		.land-title .subject{
+			padding-left: 15px;
 		}
 	}
-
 }
 
 
@@ -380,7 +379,6 @@ img{
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .diff-table-container{
@@ -452,6 +450,7 @@ img{
   font-size: 18px;
   float: right;
   padding: 10px 10px 0 0;
+	//border: 1px solid red;
 }
 
 .comment-container label{
@@ -471,7 +470,7 @@ img{
 
 
 .comment-container #mobtel{
-	width: 449px;
+	width: 445px;
 }
 
 .comment-container .button{
@@ -482,7 +481,7 @@ img{
 	background-color: #00cc99;
   border: none;
 	border-radius: 4px;
-	margin-left: 368px;
+	margin-left: 365px;
 }
 
 .comment-container .button:hover{
@@ -513,13 +512,13 @@ img{
 		float: none;
 	}
 	.comment-container input{
-		width: 442px;
+		width: 450px;
 	}
 	.comment-container #mobtel{
-		width: 442px;
+		width: 450px;
 	}
 	.comment-container .button{
-		margin-left: 362px;
+		margin-left: 369px;
   }
 	@media screen and (max-width: 468px){
 		.comment-container textarea{
@@ -529,7 +528,7 @@ img{
 			max-width: 300px;
 		}
 		.comment-container .button{
-			margin-left: 220px;
+			margin-left: 219px;
 	  }
 	}
 }
