@@ -474,7 +474,7 @@ img{
 
 
 .comment-container #mobtel{
-	width: 440px;
+	width: 446px;
 }
 
 .comment-container .button{
@@ -485,7 +485,7 @@ img{
 	background-color: #00cc99;
   border: none;
 	border-radius: 4px;
-	margin-left: 362px;
+	margin-left: 365px;
 }
 
 .comment-container .button:hover{
@@ -516,13 +516,13 @@ img{
 		float: none;
 	}
 	.comment-container input{
-		width: 448px;
+		width: 440px;
 	}
 	.comment-container #mobtel{
-		width: 448px;
+		width: 440px;
 	}
 	.comment-container .button{
-		margin-left: 368px;
+		margin-left: 360px;
   }
 	@media screen and (max-width: 468px){
 		.comment-container textarea{
