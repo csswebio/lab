@@ -77,13 +77,11 @@ img{
   text-align: center;
   padding: 20px 0;
   margin: 30px 0 20px 0;
-  border: 1px solid red;
 }
 
 .comment-container{
   display: block;
   padding: 0 20px 0 20px;
-  border: 1px solid red;
 }
 
 
@@ -120,7 +118,6 @@ img{
   font-size: 28px;
   color: white;
   padding-bottom: 10px;
-  border: 1px solid;
 }
 
 .comment-container textarea{
@@ -131,14 +128,12 @@ img{
   border-radius: 4px;
   margin: 20px 0 0 0px;
   overflow: auto;
-  border: 1px solid red;
 }
 
 .comment-container .text-input{
   font-size: 18px;
   float: right;
   padding: 20px 10px 0 0;
-	border: 1px solid red;
 }
 
 .comment-container label{
@@ -157,20 +152,15 @@ img{
   border-radius: 4px;
 }
 
-
-.comment-container #mobtel{
-	//width: 445px;
-}
-
 .comment-container .button{
 	display: block;
 	width: 80px;
 	height: 44px;
 	color: white;
 	background-color: #00cc99;
+	margin-left: 362px;
   border: none;
 	border-radius: 4px;
-	margin-left: 362px;
 }
 
 .comment-container .button:hover{
