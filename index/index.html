@@ -4,9 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/forms.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
+<div class="wrap">
+
+  <div class="main">
+
+    <div class="comment-box">
+
+      <form class="comment-container pure-form"
+            action="index.html">
+        <h2>對我們課程有興趣嗎？<br/>歡迎留下您的資料</h2>
+        <div class="comment-text">
+          <div class="textarea-box">
+            <textarea rows="13" cols="42">
+            </textarea>
+          </div>
+
+          <div class="text-input">
+            <label for="name">姓名 *(必填)</label>
+            <input id="name" type="text" size="43"
+                name="name"  placeholder="六角講師" required>
+
+            <label for="mobtel">電話 *(必填)</label>
+            <input id="mobtel" type="tel" size="43"
+                name="mobtel"  placeholder="0912345678" required>
+
+            <label for="email">信箱 *(必填)</label>
+            <input id="email" type="email" size="43"
+                name="email" placeholder="hexschool@gmail.com" required>
+
+            <input class="button" type="submit" value="送出">
+          </div>
+          </div>    <!-- comment-text End -->
+        <div class="clearfix"></div>
+      </form>
+
+    </div>       <!-- comment-box End -->
+
+  </div>    <!--   main End  -->
+</div>      <!--   wrap End  -->
+
 
 </body>
 </html>
