@@ -179,30 +179,30 @@ img{
     display: inline-block;       /* 設定 改成 單欄  */
 		padding: 0;
 	}
-	.comment-container textarea{
+	.comment-container textarea,
+	.comment-container .text-input,
+	.comment-container label {
 		float: none;
 	}
 	.comment-container .text-input{
-		float: none;
 		padding-right: 0;
 	}
-	.comment-container label{
-		float: none;
-	}
+
+	
 	@media screen and (max-width: 768px){
 		.comment-container input[type="text"],
 		.comment-container input[type="tel"],
 		.comment-container input[type="email"],
 		.comment-container label,
 		.comment-container textarea {
-			font-size: 20px;
+			font-size: 20px;   /* mobile 需要看大字 且 高度滿足 40px */
 		}
 	}
+
+
 	@media screen and (max-width: 468px){
-		.comment-container textarea{
-			max-width: 300px;
-		}
-		.comment-container input{
+		.comment-container textarea,
+		.comment-container input {
 			max-width: 300px;
 		}
 		.comment-container .button{
