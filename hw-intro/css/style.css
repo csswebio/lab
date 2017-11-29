@@ -429,6 +429,7 @@ img{
 .comment-container{
   display: block;
   padding: 0 20px 0 20px;
+	border: 1px solid red;
 }
 
 .comment-container h2{
