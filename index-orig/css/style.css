@@ -107,9 +107,8 @@ img{
     border-color: #129FEA;
 }
 /****** PURECSS style End ******/
-
-
-
+/****** PURECSS style End ******/
+/****** PURECSS style End ******/
 
 
 
@@ -121,7 +120,7 @@ img{
 }
 
 .comment-container textarea{
-	height: 300px;
+	height: 296px;
 	width: 446px;
   float: left;
   font-size: 18px;
@@ -190,15 +189,15 @@ img{
 	.comment-container label{
 		float: none;
 	}
-	.comment-container input{
-		//width: 443px;
+	@media screen and (max-width: 768px){
+		.comment-container input[type="text"],
+		.comment-container input[type="tel"],
+		.comment-container input[type="email"],
+		.comment-container label,
+		.comment-container textarea {
+			font-size: 20px;
+		}
 	}
-	.comment-container #mobtel{
-		//width: 450px;
-	}
-	.comment-container .button{
-		//margin-left: 362px;
-  }
 	@media screen and (max-width: 468px){
 		.comment-container textarea{
 			max-width: 300px;
