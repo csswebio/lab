@@ -275,7 +275,7 @@ img{
 		.land-title .subject{
 			padding-left: 7px;
 		}
-		
+
 		@media screen and (max-width: 368px){
 			.land-title{
 				font-size: 26px;
@@ -322,28 +322,21 @@ img{
 	  display: inline-block;   /*  設定 jquery-img el 雙欄 效果 */
 		margin: 20px 10px 0 10px;
 	}
-}
+	@media screen and (max-width: 667px){
+		.intro-box .intro-el{
+			display: block;
+			float: none;		/* 設定 改成 單欄  */
+	  }
 
-@media screen and (max-width: 667px){
-	.intro-box .intro-el{
-		display: block;
-		float: none;		/* 設定 改成 單欄  */
-  }
+		.intro-box .virtual-el{
+	    display: none;			/* 單欄 不再需要 virtual-el*/
+		}
 
-	.intro-box .virtual-el{    /*  佔位 el 雙欄 排版用 */
-    display: none;
-		width: 0;            /*  排版 jquery-img el 單欄 不在需要 */
-	  height: 0;
-		margin: 0;
+		.intro-box .intro-el{
+			margin: 20px 0 0 0;  /*  單欄  不再需要 左右邊距  */
+		}
 	}
 }
-
-@media screen and (max-width: 375px){
-	.intro-box .intro-el{
-		margin: 20px 0 0 0;  /*  單欄  不再需要 左右邊距  */
-	}
-}
-
 
 .intro-box img{
 	height: 120px;
@@ -390,12 +383,12 @@ img{
 }
 
 .diff-table-container{
-	overflow-X: auto;			/* Tablet resolution 設定滑鼠 X-水平軸 */
+	overflow-X: auto;	 /* Tablet resolution 設定滑鼠 X-水平軸 */
 }
 
 
 .diff-table{
-	width: 750px;        /* Tablet resolution 設定 表格 固定欄寬  */
+	width: 750px;     /* Tablet resolution 設定 表格 固定欄寬  */
 	margin: 40px auto 20px auto;
 }
 
