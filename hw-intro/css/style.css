@@ -255,23 +255,31 @@ img{
 	padding: 5px 0 5px 20px;
 }
 
+.land-title .subject-mob{
+	display: none;
+}
+
 @media screen and (max-width: 768px){
 	.landimg-box{
 		background-image: url(../img/land-md.jpg);
 	}
-	@media screen and (max-width: 568px){
+	@media screen and (max-width: 468px){
 		.landimg-box{
 			background-image: url(../img/land-sm.jpg);
 		}
 
 		.land-title{
-		  font-size: 28px;
-			line-height: 1.4em;
-			padding: 0.7em 0;
+		  font-size: 30px;
 		}
 
 		.land-title .subject{
-			padding-left: 15px;
+			padding-left: 7px;
+		}
+		
+		@media screen and (max-width: 368px){
+			.land-title{
+				font-size: 26px;
+			}
 		}
 	}
 }
