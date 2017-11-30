@@ -169,7 +169,6 @@ img{
 		display: none;	/* 粉絲團、追蹤 併入 漢堡menu */
 	}
 
-
 	.top-menu{
 		float: none;
     max-height: 0px;
@@ -204,6 +203,10 @@ img{
 	.top-menu li a:hover{
 		border-left: 8px solid;
 		border-bottom: none;
+	}
+
+	.top-menu li a:active{
+		background-color: white;
 	}
 
 	.top-menu .showfollow{
@@ -269,17 +272,11 @@ img{
 		}
 
 		.land-title{
-		  font-size: 30px;
+		  font-size: 26px;
 		}
 
 		.land-title .subject{
 			padding-left: 7px;
-		}
-
-		@media screen and (max-width: 368px){
-			.land-title{
-				font-size: 26px;
-			}
 		}
 	}
 }
@@ -518,7 +515,6 @@ img{
 .comment-container .button:active{
   background-color: #E6E6E6;
 	color: rgb(0, 120, 231);
-
 }
 
 
@@ -527,11 +523,13 @@ img{
     display: inline-block;       /* 設定 改成 單欄  */
 		padding: 0;
 	}
+
 	.comment-container textarea,
 	.comment-container .text-input,
 	.comment-container label {
 		float: none;
 	}
+
 	.comment-container .text-input{
 		padding-right: 0;
 	}
@@ -545,17 +543,16 @@ img{
 		.comment-container textarea {
 			font-size: 20px;   /* mobile 需要看大字 且 高度滿足 40px */
 		}
-	}
 
-
-	@media screen and (max-width: 468px){
-		.comment-container textarea,
-		.comment-container input {
-			max-width: 300px;
+		@media screen and (max-width: 468px){
+			.comment-container textarea,
+			.comment-container input {
+				max-width: 300px;
+			}
+			.comment-container .button{
+				margin-left: 219px;
+		  }
 		}
-		.comment-container .button{
-			margin-left: 219px;
-	  }
 	}
 }
 
