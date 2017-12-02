@@ -430,9 +430,9 @@ img{
 }
 
 
-/*** Referrence PURECSS style ***/
-/*** Referrence PURECSS style ***/
-/*** Referrence PURECSS style ***/
+/****** Referrence PURECSS style ******/
+/****** Referrence PURECSS style ******/
+/****** Referrence PURECSS style ******/
 .comment-container input[type="text"],
 .comment-container input[type="tel"],
 .comment-container input[type="email"],
@@ -606,6 +606,24 @@ footer .logo-footer{
 }
 
 
+
 .clearfix{
   clear: both;
+}
+
+/*************  固定頁尾 GoTop  **************************/
+/*************  固定頁尾 GoTop  **************************/
+/*************  固定頁尾 GoTop  **************************/
+
+.gotop {
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 15px 15px;
+    font-size: 20px;
+    background: #00cc99;
+    color: white;
+		border-radius: 50%;
+    cursor: pointer;
 }
