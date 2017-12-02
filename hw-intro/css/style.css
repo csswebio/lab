@@ -627,3 +627,8 @@ footer .logo-footer{
 		border-radius: 50%;
     cursor: pointer;
 }
+.gotop:hover {
+	border: 1px solid #00cc99;
+	color: #00cc99;
+	background-color: white;
+}
