@@ -618,17 +618,9 @@ footer .logo-footer{
 .gotop {
     display: none;
     position: fixed;
+		height: 48px;
+		width: 48px;
     right: 10px;
     bottom: 10px;
-    padding: 15px 15px;
-    font-size: 20px;
-    background: #00cc99;
-    color: white;
-		border-radius: 50%;
-    cursor: pointer;
-}
-.gotop:hover {
-	border: 1px solid #00cc99;
-	color: #00cc99;
-	background-color: white;
+		background-image: url(../img/go-top.png);
 }
